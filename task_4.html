@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Семантическая разметка HTML5</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+        header, footer { background: #f5f5f5; padding: 20px; text-align: center; }
+        nav { background: #222; padding: 10px; text-align: center; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; }
+        main { padding: 20px; max-width: 800px; margin: 0 auto; }
+        section { margin-bottom: 30px; padding: 15px; border-bottom: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Логотип" width="60" style="vertical-align: middle;">
+        <h1>Задание 4</h1>
+    </header>
+
+    <nav>
+        <a href="#sec1">Раздел 1</a>
+        <a href="#sec2">Раздел 2</a>
+        <a href="https://developer.mozilla.org/ru/">Внешний ресурс</a>
+    </nav>
+
+    <main>
+        <section id="sec1">
+            <h2>Тематический раздел 1</h2>
+            <p>Семантические теги HTML5 помогают поисковым системам и вспомогательным технологиям корректно интерпретировать структуру документа. Использование &lt;header&gt;, &lt;nav&gt;, &lt;main&gt; и &lt;footer&gt; делает код читаемым и соответствующим современным стандартам.</p>
+        </section>
+
+        <section id="sec2">
+            <h2>Тематический раздел 2</h2>
+            <p>Каждый раздел &lt;section&gt; представляет собой логически обособленный блок контента. Внутри него можно размещать заголовки, абзацы, списки и другие элементы, сохраняя строгую иерархию и смысловую нагрузку.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Контактная информация: support@example.com | +7 (999) 000-00-00</p>
+        <p>&copy; 2026 Название Сайта. Все права защищены.</p>
+    </footer>
+</body>
+</html>
